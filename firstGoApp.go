@@ -7,5 +7,12 @@ func main() {
 	lastname := "Kaseta"
 
 	var fullName string = firstName + " " + lastname
-	fmt.Println(fullName)
+
+	birthMonth := "12"
+	birthDate := "24"
+	birthYear := "1984"
+
+	var fullBirthday string = birthMonth + "/" + birthDate + "/" + birthYear
+	fmt.Println("Name:" + " " + fullName)
+	fmt.Println("Birthday:" + " " + fullBirthday)
 }
